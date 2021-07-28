@@ -1,13 +1,41 @@
 h1{
-    
-    align-items: center;
+    text-align: center;
     font-weight: 100;
     font-family: 'Courier New', Courier, monospace;
 }
+img.mainImage{
+    margin-left: auto;
+    margin-right: auto ;
+}
+.btn-primary{
+    border-radius: 8px;
 
-#containerImage{
-    align-items: center;
-    justify-content: center;
-    margin: 15px;    
 }
 
+#EnableDisable{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container{
+    margin-top: 10px;
+    text-align: center ;
+    justify-content: center;
+    
+}
+
+
+#meio{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+
+
+#centro{
+    margin: 0 auto; 
+}
